@@ -9,4 +9,7 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
+  it('contains a connected RecipeListContainer', () => {
+    expect(app.find('Connect(RecipeListContainer)').exists()).toBe(true);
+  });
 });
