@@ -4,6 +4,11 @@
     --secondary-color: rgba(255,219,170,1)
 }
 
+.page-wrap {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
 .titlebar {
     display: flex;
     justify-content: center;
@@ -16,4 +21,30 @@
     margin: 0em;
     color: var(--primary-action-color);
     font-size: 3rem;
+}
+
+.section-title {
+    font-size: 2em;
+    padding: 0px 1em;
+}
+
+.recipe-list {
+    min-width: 600px;
+    margin: auto;
+}
+
+.recipe-list th {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.recipe-list .column-header {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.recipe-listing {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
 }
